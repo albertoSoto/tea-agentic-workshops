@@ -11,6 +11,58 @@ style: |
     background-color: white;
     color: #1B1B3D;
   }
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 1em;
+  }
+  .tool-card {
+    background: #F5F5F5;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(107, 45, 127, 0.05);
+    transition: all 0.2s ease;
+    border: 1px solid #1B1B3D10;
+  }
+  .tool-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(107, 45, 127, 0.1);
+    background: white;
+  }
+  .tool-card h3 {
+    color: #6B2D7F;
+    font-size: 20px;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+  }
+  .tool-card em {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 12px;
+    background: none;
+    padding: 0;
+  }
+  .tool-card ul {
+    margin: 0;
+    padding-left: 1em;
+  }
+  .tool-card li {
+    margin: 0.2em 0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .price-tag {
+    border-top: 1px solid #1B1B3D20;
+    font-size: 12px;
+    color: #6B2D7F;
+    font-weight: 500;
+    background: #6B2D7F10;
+    margin: 12px -16px -16px;
+    padding: 8px 16px;
+    border-radius: 0 0 8px 8px;
+  }
   h1 {
     color: #6B2D7F;
     font-size: 32px;
@@ -96,84 +148,73 @@ style: |
 
 # AI Tools for Developers Today
 
-## Modern AI Development Assistants
-Exploring the latest tools that enhance developer productivity and code quality.
+Modern AI-powered assistants that enhance developer productivity and code quality.
 
----
+<div class="columns">
+<div class="tool-card">
 
-## JetBrains Junie
+### JetBrains Junie
 *The intelligent companion for JetBrains IDEs*
 
-- **Smart Context Understanding**
-  - Analyzes entire project structure
-  - Understands development workflows
-  - Integrates with JetBrains IDEs
-- **Key Features**
-  - Automated code review suggestions
-  - Workflow optimization recommendations
-  - Smart code completion
-  - Documentation assistance
-- **Availability**
-  - Early Access Program
-  - Free during preview phase
-  - Integrated with JetBrains Suite
+- Project structure analysis
+- Workflow optimization
+- Smart code completion
+- Code review assistance
+- Documentation help
 
----
+<div class="price-tag">
+Free during Early Access
+</div>
+</div>
 
-## Tabnine
-*Privacy-focused AI assistant with local processing*
+<div class="tool-card">
 
-- **Local-First Architecture**
-  - Privacy-focused AI completion
-  - Works offline with local models
-  - Enterprise-grade security
-- **Advanced Capabilities**
-  - Multi-line code completion
-  - Full-function generation
-  - Team-specific learning
-  - IDE integration support
-- **Pricing**
-  - Free basic version
-  - Pro: $12/month
-  - Enterprise: Custom pricing
+### Tabnine
+*Privacy-focused AI assistant*
 
----
+- Local-first processing
+- Offline capabilities
+- Multi-line completion
+- Team learning
+- IDE integration
 
-## Codeium
-*Ultra-fast, modern AI coding assistant*
+<div class="price-tag">
+Free Basic | Pro: $12/mo
+</div>
+</div>
 
-- **Performance-Focused Design**
-  - Ultra-fast completions
-  - Low latency responses
-  - Lightweight implementation
-- **Key Features**
-  - Natural language to code
-  - Code explanation
-  - Refactoring suggestions
-  - Multi-language support
-- **Pricing**
-  - Free for individuals
-  - Teams: $12/user/month
-  - Enterprise: Custom plans
+<div class="tool-card">
 
----
+### Codeium
+*Ultra-fast coding assistant*
 
-## CodeGPT
-*GPT-powered coding companion*
+- Fast completions
+- Natural language to code
+- Code explanations
+- Refactoring help
+- Multi-language support
 
-- **AI-Powered Development**
-  - GPT-based code generation
-  - Contextual understanding
-  - Cross-language support
-- **Developer Tools**
-  - Code documentation
-  - Bug detection
-  - Test generation
-  - Code optimization
-- **Pricing**
-  - Free tier available
-  - Pro: $10/month
-  - Business: Custom pricing
+<div class="price-tag">
+Free Personal | Team: $12/mo
+</div>
+</div>
+
+<div class="tool-card">
+
+### CodeGPT
+*GPT-powered companion*
+
+- Code generation
+- Documentation
+- Bug detection
+- Test generation
+- Code optimization
+
+<div class="price-tag">
+Free Tier | Pro: $10/mo
+</div>
+</div>
+</div>
 
 ---
 
