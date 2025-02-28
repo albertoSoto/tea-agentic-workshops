@@ -185,7 +185,7 @@ Free Basic | Pro: $12/mo
 
 <div class="tool-card">
 
-### Codeium
+### Codeium / Windsurf
 *Ultra-fast coding assistant*
 
 - Fast completions
