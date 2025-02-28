@@ -1,0 +1,13 @@
+templateScript: /tea-agentic-pages/templates/pages/basic-page.ftl
+renderType: freemarker
+visible: true
+dialog: tea-agentic-pages:pages/basic-page
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      text:
+        id: tea-agentic-pages:components/text
+      image:
+        id: tea-agentic-pages:components/image
+title: Basic Page Template

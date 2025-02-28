@@ -1,0 +1,4 @@
+templateScript: /tea-agentic-pages/templates/components/image.ftl
+renderType: freemarker
+dialog: tea-agentic-pages:components/image
+title: Image Component

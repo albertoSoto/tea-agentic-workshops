@@ -1,0 +1,23 @@
+form:
+  tabs:
+    - name: tabImage
+      label: Image
+      fields:
+        - name: image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Image
+          required: true
+        - name: caption
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Caption
+        - name: altText
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Alternative Text
+          required: true
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
