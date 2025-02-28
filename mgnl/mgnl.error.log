@@ -1,0 +1,64 @@
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Retrieving download URL from: https://nexus.magnolia-cms.com/service/rest/v1/search/assets?sort=version&repository=public&maven.groupId=info.magnolia.tomcat.barebone&maven.artifactId=magnolia-tomcat-barebone&maven.extension=zip
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Starting download from: https://nexus.magnolia-cms.com/repository/public/info/magnolia/tomcat/barebone/magnolia-tomcat-barebone/1.2.33/magnolia-tomcat-barebone-1.2.33.zip
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Retrieving download URL from: https://nexus.magnolia-cms.com/service/rest/v1/search/assets?sort=version&repository=public&maven.groupId=info.magnolia.bundle&maven.artifactId=magnolia-community-demo-webapp&maven.extension=war
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Starting download from: https://nexus.magnolia-cms.com/repository/public/info/magnolia/demo/travel-demo-community-webapp/6.3.5/travel-demo-community-webapp-6.3.5.war
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: File "microprofile-config.properties" already exists
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: New "light-modules" directory created at: "/Users/berto/src/labs/tea-agentic-workshops/mgnl/light-modules"
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 warn: File "/Users/berto/src/labs/tea-agentic-workshops/mgnl/apache-tomcat/webapps/ROOT/WEB-INF/config/default/magnolia.properties" not found; skipping configuration
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Set "magnolia.resources.dir" to: "${magnolia.home}/../../../light-modules" in "/Users/berto/src/labs/tea-agentic-workshops/mgnl/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/config/default/magnolia.properties"
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Set "magnolia.update.auto" to: "true" in "/Users/berto/src/labs/tea-agentic-workshops/mgnl/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/config/default/magnolia.properties"
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Set "magnolia.develop" to: "true" in "/Users/berto/src/labs/tea-agentic-workshops/mgnl/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/config/default/magnolia.properties"
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 warn: File "/Users/berto/src/labs/tea-agentic-workshops/mgnl/apache-tomcat/webapps/magnoliaPublic/WEB-INF/config/default/magnolia.properties" not found; skipping configuration
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Added "mgnl" script to package.json
+[@magnolia/cli@5.0.0] 2025-02-28T08:52:25.213+01:00 info: We collect anonymised data to improve your experience.
+Data include the names and versions of used commands, Magnolia CLI version, Node.js version and OS information.
+We use this data to prioritize further development of the tool.
+All collected data are collected anonymously and not tied to any individual
+.No personal information is collected.
+[AddPlugin@5.0.0] 2025-02-28T08:52:25.828+01:00 info: Installing @magnolia/cli-start-plugin...
+[AddPlugin@5.0.0] 2025-02-28T08:52:25.828+01:00 info: Package @magnolia/cli-start-plugin is installed.
+[AddPlugin@5.0.0] 2025-02-28T08:52:25.828+01:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.0.0] 2025-02-28T08:52:25.828+01:00 info: Added new plugin: "StartPlugin" to mgnl.config.js.
+[AddPlugin@5.0.0] 2025-02-28T08:52:25.828+01:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.0.0] 2025-02-28T08:52:30.238+01:00 info: Installing @magnolia/cli-create-light-module-plugin...
+[AddPlugin@5.0.0] 2025-02-28T08:52:30.238+01:00 info: Package @magnolia/cli-create-light-module-plugin is installed.
+[AddPlugin@5.0.0] 2025-02-28T08:52:30.238+01:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.0.0] 2025-02-28T08:52:30.238+01:00 info: Added new plugin: "CreateLightModulePlugin" to mgnl.config.js.
+[AddPlugin@5.0.0] 2025-02-28T08:52:30.238+01:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.0.0] 2025-02-28T08:52:33.563+01:00 info: Installing @magnolia/cli-create-app-plugin...
+[AddPlugin@5.0.0] 2025-02-28T08:52:33.563+01:00 info: Package @magnolia/cli-create-app-plugin is installed.
+[AddPlugin@5.0.0] 2025-02-28T08:52:33.563+01:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.0.0] 2025-02-28T08:52:33.563+01:00 info: Added new plugin: "CreateAppPlugin" to mgnl.config.js.
+[AddPlugin@5.0.0] 2025-02-28T08:52:33.563+01:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.0.0] 2025-02-28T08:52:38.101+01:00 info: Installing @magnolia/cli-create-content-type-plugin...
+[AddPlugin@5.0.0] 2025-02-28T08:52:38.101+01:00 info: Package @magnolia/cli-create-content-type-plugin is installed.
+[AddPlugin@5.0.0] 2025-02-28T08:52:38.101+01:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.0.0] 2025-02-28T08:52:38.101+01:00 info: Added new plugin: "CreateContentTypePlugin" to mgnl.config.js.
+[AddPlugin@5.0.0] 2025-02-28T08:52:38.101+01:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.0.0] 2025-02-28T08:52:41.429+01:00 info: Installing @magnolia/cli-create-virtual-uri-plugin...
+[AddPlugin@5.0.0] 2025-02-28T08:52:41.429+01:00 info: Package @magnolia/cli-create-virtual-uri-plugin is installed.
+[AddPlugin@5.0.0] 2025-02-28T08:52:41.429+01:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.0.0] 2025-02-28T08:52:41.429+01:00 info: Added new plugin: "CreateVirtualUriPlugin" to mgnl.config.js.
+[AddPlugin@5.0.0] 2025-02-28T08:52:41.429+01:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.0.0] 2025-02-28T08:52:44.656+01:00 info: Installing @magnolia/cli-create-component-plugin...
+[AddPlugin@5.0.0] 2025-02-28T08:52:44.656+01:00 info: Package @magnolia/cli-create-component-plugin is installed.
+[AddPlugin@5.0.0] 2025-02-28T08:52:44.656+01:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.0.0] 2025-02-28T08:52:44.656+01:00 info: Added new plugin: "CreateComponentPlugin" to mgnl.config.js.
+[AddPlugin@5.0.0] 2025-02-28T08:52:44.656+01:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.0.0] 2025-02-28T08:52:51.577+01:00 info: Installing @magnolia/cli-create-page-plugin...
+[AddPlugin@5.0.0] 2025-02-28T08:52:51.577+01:00 info: Package @magnolia/cli-create-page-plugin is installed.
+[AddPlugin@5.0.0] 2025-02-28T08:52:51.577+01:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.0.0] 2025-02-28T08:52:51.577+01:00 info: Added new plugin: "CreatePagePlugin" to mgnl.config.js.
+[AddPlugin@5.0.0] 2025-02-28T08:52:51.577+01:00 info: Run `npm run mgnl` to see the list of registered commands.
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Project successfully downloaded
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Run "npm run mgnl" to see the list of registered commands
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: Start the project using: "npm run mgnl -- start"
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: If the "StartPlugin" is not available, install it using: "npm run mgnl -- add-plugin @magnolia/cli-start-plugin"
+[JumpstartPlugin@1.0.2] 2025-02-28T08:51:35.107+01:00 info: For additional plugins and features, refer to the Magnolia CLI documentation: https://docs.magnolia-cms.com/magnolia-cli
+[StartPlugin@1.0.0] 2025-02-28T08:56:11.145+01:00 info: info-using-cwd-tomcatPath
+[StartPlugin@1.0.0] 2025-02-28T08:56:11.145+01:00 info: Added plugins property: "tomcatPath" to the "mgnl.config.js" file
+[StartPlugin@1.0.0] 2025-02-28T08:56:11.145+01:00 error: The port 8080 is currently in use by another process
+[StartPlugin@1.0.0] 2025-02-28T08:57:02.304+01:00 info: info-using-plugin-tomcatPath
+[StartPlugin@1.0.0] 2025-02-28T08:57:02.304+01:00 info: Starting Magnolia located at: /Users/berto/src/labs/tea-agentic-workshops/mgnl/apache-tomcat
+[StartPlugin@1.0.0] 2025-02-28T08:57:02.304+01:00 info: Press CTRL+C to terminate the process
+[StartPlugin@1.0.0] 2025-02-28T08:57:02.304+01:00 info: Displaying log activity from: /Users/berto/src/labs/tea-agentic-workshops/mgnl/apache-tomcat/logs/catalina.out
