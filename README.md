@@ -51,5 +51,17 @@ mgnl start
 
 Your Magnolia project should now be running locally!
 
+## Presentations
+
+This repository includes Marp presentations about agentic workflows and modern development practices. You can find them in the `slides` directory.
+
+### Available Presentations
+- [Agentic Workflows: The Case of Junie](slides/agentic-workflows.md) - A hands-on session covering:
+  - AI-powered development workflows
+  - Magnolia Light Development (20min workshop)
+  - Sanity.io Integration (20min workshop)
+
+For instructions on how to view or export the presentations, please refer to the [slides README](slides/README.md).
+
 ## Updating from CLI v4
 If you're using Magnolia CLI version 4 and need to update to version 5, please follow the instructions in [UPDATE_MAGNOLIA_CLI.md](UPDATE_MAGNOLIA_CLI.md).
