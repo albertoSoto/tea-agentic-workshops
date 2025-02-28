@@ -63,6 +63,27 @@ style: |
     padding: 8px 16px;
     border-radius: 0 0 8px 8px;
   }
+  .benchmark-legend {
+    margin-top: 24px;
+    font-size: 14px;
+    color: #1B1B3D99;
+    background: #F5F5F5;
+    padding: 12px 16px;
+    border-radius: 8px;
+    line-height: 1.4;
+  }
+  .benchmark-legend strong {
+    color: #6B2D7F;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .benchmark-legend ul {
+    margin: 0;
+    padding-left: 1.2em;
+  }
+  .benchmark-legend li {
+    margin: 4px 0;
+  }
   h1 {
     color: #6B2D7F;
     font-size: 32px;
@@ -143,6 +164,86 @@ style: |
 - Autonomous problem-solving capabilities
 - Integration with development tools
 - **Junie**: A specialized agent for development workflows
+
+---
+
+# Leading AI Models
+
+Understanding the capabilities of today's most advanced language models.
+
+<div class="columns">
+<div class="tool-card">
+
+### Claude 3 Sonnet
+*Fast & Efficient Model*
+
+- 128K context window
+- MMLU score: 89.2%
+- 2x faster than Opus
+- Vision capabilities
+- Best price/performance
+
+<div class="price-tag">
+$8/M tokens | Claude Pro
+</div>
+</div>
+
+<div class="tool-card">
+
+### Gemini Ultra
+*Released December 2023*
+
+- 32K context window
+- MMLU score: 90.0%
+- Multimodal processing
+- Advanced reasoning
+- $20/million tokens
+
+<div class="price-tag">
+Via Gemini API & Cloud
+</div>
+</div>
+
+<div class="tool-card">
+
+### DeepSeek Coder
+*Specialized Code Model*
+
+- 32K context window
+- HumanEval: 73.1%
+- Code explanation
+- 40+ languages
+- Self-hosted option
+
+<div class="price-tag">
+Open Source & API
+</div>
+</div>
+
+<div class="tool-card">
+
+### GPT-4 Turbo
+*Updated March 2024*
+
+- 128K context
+- MMLU score: 86.4%
+- Vision enabled
+- Tool integration
+- $10/million tokens
+
+<div class="price-tag">
+API & Azure Access
+</div>
+</div>
+</div>
+
+<div class="benchmark-legend">
+<strong>Understanding the Benchmarks</strong>
+<ul>
+<li>MMLU (Massive Multitask Language Understanding): Tests knowledge across 57 subjects. Higher scores (85-91%) indicate better reasoning and knowledge.</li>
+<li>HumanEval: Measures code generation ability. Scores above 70% demonstrate strong programming capabilities.</li>
+</ul>
+</div>
 
 ---
 
