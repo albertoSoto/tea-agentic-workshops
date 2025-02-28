@@ -5,40 +5,74 @@ paginate: true
 backgroundColor: white
 style: |
   section {
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    padding: 15px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 40px;
+    background-color: white;
+    color: #1B1B3D;
   }
   h1 {
-    color: #2c3e50;
-    font-size: 24px;
-    margin: 0 0 0.2em;
+    color: #6B2D7F;
+    font-size: 32px;
+    margin: 0 0 0.5em;
+    font-weight: 600;
   }
   h2 {
-    color: #34495e;
-    font-size: 20px;
-    margin: 0.15em 0;
+    color: #1B1B3D;
+    font-size: 24px;
+    margin: 0.3em 0;
+    font-weight: 500;
   }
   ul, ol {
-    margin: 0.15em 0;
-    padding-left: 1em;
+    margin: 0.5em 0;
+    padding-left: 1.2em;
   }
   li {
-    margin: 0.1em 0;
-    font-size: 14px;
-    line-height: 1.2;
+    margin: 0.3em 0;
+    font-size: 16px;
+    line-height: 1.5;
   }
   li > ul, li > ol {
-    margin: 0;
-    padding-left: 0.8em;
+    margin: 0.2em 0;
+    padding-left: 1em;
+    color: #1B1B3D99;
   }
   code {
-    font-size: 12px;
+    font-size: 14px;
+    background-color: #F5F5F5;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
   }
   p {
-    font-size: 14px;
-    margin: 0.15em 0;
-    line-height: 1.2;
+    font-size: 16px;
+    margin: 0.5em 0;
+    line-height: 1.5;
+  }
+  a {
+    color: #6B2D7F;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  strong {
+    color: #6B2D7F;
+    font-weight: 600;
+  }
+  em {
+    color: #1B1B3D;
+    font-style: normal;
+    background-color: #F5F5F5;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  section::after {
+    color: #6B2D7F80;
+    font-size: 12px;
+  }
+  img {
+    border-radius: 4px;
   }
 ---
 
@@ -62,20 +96,84 @@ style: |
 
 # AI Tools for Developers Today
 
-## Code Assistants
-- **GitHub Copilot**: Real-time code suggestions and pair programming
-- **Amazon CodeWhisperer**: AWS-optimized code assistance
-- **Tabnine**: Local-first AI completion
-- **Codeium**: Fast, secure code completions
+## Modern AI Development Assistants
+Exploring the latest tools that enhance developer productivity and code quality.
 
-## Conversational Agents
-- **ChatGPT**: General-purpose coding assistant
-- **Claude**: Advanced reasoning and code analysis
-- **Bard**: Google's AI with broad knowledge
-- **Junie**: Specialized in development workflows
-  - Context-aware assistance
-  - Workflow optimization
-  - Integration capabilities
+---
+
+## JetBrains Junie
+*The intelligent companion for JetBrains IDEs*
+
+- **Smart Context Understanding**
+  - Analyzes entire project structure
+  - Understands development workflows
+  - Integrates with JetBrains IDEs
+- **Key Features**
+  - Automated code review suggestions
+  - Workflow optimization recommendations
+  - Smart code completion
+  - Documentation assistance
+- **Availability**
+  - Early Access Program
+  - Free during preview phase
+  - Integrated with JetBrains Suite
+
+---
+
+## Tabnine
+*Privacy-focused AI assistant with local processing*
+
+- **Local-First Architecture**
+  - Privacy-focused AI completion
+  - Works offline with local models
+  - Enterprise-grade security
+- **Advanced Capabilities**
+  - Multi-line code completion
+  - Full-function generation
+  - Team-specific learning
+  - IDE integration support
+- **Pricing**
+  - Free basic version
+  - Pro: $12/month
+  - Enterprise: Custom pricing
+
+---
+
+## Codeium
+*Ultra-fast, modern AI coding assistant*
+
+- **Performance-Focused Design**
+  - Ultra-fast completions
+  - Low latency responses
+  - Lightweight implementation
+- **Key Features**
+  - Natural language to code
+  - Code explanation
+  - Refactoring suggestions
+  - Multi-language support
+- **Pricing**
+  - Free for individuals
+  - Teams: $12/user/month
+  - Enterprise: Custom plans
+
+---
+
+## CodeGPT
+*GPT-powered coding companion*
+
+- **AI-Powered Development**
+  - GPT-based code generation
+  - Contextual understanding
+  - Cross-language support
+- **Developer Tools**
+  - Code documentation
+  - Bug detection
+  - Test generation
+  - Code optimization
+- **Pricing**
+  - Free tier available
+  - Pro: $10/month
+  - Business: Custom pricing
 
 ---
 
